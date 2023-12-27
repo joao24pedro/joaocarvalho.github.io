@@ -1,7 +1,7 @@
 import React from 'react';
-import './buttonXStyle.css';
+import './ButtonXStyle.css';
 
-const buttonX = () => {
+const ButtonX = () => {
   return (
     <button className="button-with-icon">
       WORK
@@ -18,4 +18,4 @@ const buttonX = () => {
   );
 };
 
-export default buttonX;
+export default ButtonX;
