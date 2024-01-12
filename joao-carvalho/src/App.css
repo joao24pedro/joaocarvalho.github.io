@@ -48,6 +48,16 @@ li {
   margin: 10px 0;
 }
 
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
 /* Add responsive design */
 @media (max-width: 768px) {
   .App-header {
