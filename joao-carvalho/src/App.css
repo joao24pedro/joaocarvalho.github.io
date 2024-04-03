@@ -1,3 +1,7 @@
+* {
+  min-width: 0;
+}
+
 .App {
   text-align: center;
   color: white;
@@ -67,4 +71,19 @@ a:hover {
   main {
     margin-top: 0;
   }
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  height: 100vh; /* Set the height of each section to 100% of the viewport height */
+
+}
+
+/* Additional styling for the sections */
+.section h2 {
+  margin-top: 0;
 }
