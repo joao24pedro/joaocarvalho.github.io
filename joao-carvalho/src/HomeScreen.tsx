@@ -5,6 +5,7 @@ import RoundLogo from './components/roundLogo.tsx';
 import github from './assets/images/github.png';
 import linkedin from './assets/images/linkedin.png';
 import Canvas from './components/canvas.tsx';
+import SheepGame from './SheepGame.tsx';
 
 const linkedinLink = 'https://www.linkedin.com/in/joao24carvalho/'
 const githubLink = 'https://github.com/joao24pedro'
@@ -62,7 +63,6 @@ const HomeScreen = () => {
     <div className="portfolio-container">
       <Section id='section1' content={<Section1Content />} />
       <Section id='section2' content={<Section2Content />} />
-      <Section id='section3' content={<Section3Content />} />
       {/* Add more sections as needed */}
     </div>
   );
@@ -79,6 +79,7 @@ const Section1Content = () => {
   return (
     <div className="section">
       {/* Add content for each section */}
+      <SheepGame />
       <div className="App" style={{flex: 1, alignContent: 'center'}}>
       <div style={{display: 'inline-block'}}><h1>WORK IN PROGRESS</h1></div>
         <header className="App-header">
@@ -167,12 +168,5 @@ const Section2Content = () => {
   );
 };
 
-const Section3Content = () => {
-  return (
-    <div>
-      {/* Content for Section 2 */}
-    </div>
-  );
-};
 
 export default HomeScreen;
